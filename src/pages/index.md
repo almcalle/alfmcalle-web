@@ -1,16 +1,15 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Tú
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: El desarrollo para Startups hecho fácil
 mainpitch:
-  title: Why Kaldi
+  title: ¿Que ofrecemos?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    - Nos encargamos de toda la parte tecnológica necesaria para empezar cualquier Startup
+    - Usamos las últimas tecnologias para así conseguir un desarrollo más rápido, moderno y mantenible
+    - Creamos infraestructuras preparadas para escalar fácilmente, da igual que la usen un par de personas o varios millones que nuestras apps funcionarán para cualquier carga de trabajo desde el primer día
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
