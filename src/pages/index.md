@@ -15,8 +15,8 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-      Usamos la tecnologia que actualmente usan los gigantes como
-       Facebook, AirBnB, Uber... y con ellas creamos aplicaciones móviles modernas, además usamos la sinergia entre React.js y React Native para crear de esta forma aplicaciones nativas y páginas webs reutilizando muchas partes entre ambas y de esta forma desarrollar el proyecto de una forma rápida.
+        Usamos la tecnologia que actualmente usan los gigantes como
+        Facebook, AirBnB, Uber... y con ellas creamos aplicaciones móviles modernas, además usamos la sinergia entre React.js y React Native para crear de esta forma aplicaciones nativas y páginas webs reutilizando muchas partes entre ambas y de esta forma desarrollar el proyecto de una forma rápida.
     - image: /img/tutorials.png
       text: >
         Somos expertos en crear arquitecturas ServerLess usando esta tecnología
