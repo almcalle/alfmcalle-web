@@ -1,17 +1,20 @@
 ---
 templateKey: index-page
-title: ALFMCALLE
+title: ALFMCalle Apps
 image: /img/home-jumbotron.jpg
-heading: ALFMCALLE
+heading: ALFMCalle Apps
 subheading: El desarrollo para Startups hecho fácil
 mainpitch:
   title: Why Kaldi
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
-description: >
+  Somos los mejores
+
+  Creamos infraestructuras preparadas para escalar fácilmente,
+  da igual que la usen un par de personas o varios millones que nuestras apps
+  funcionaran para cualquier carga de trabajo desde el primer día.
+
+  Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup.
+description: >-
   Creamos infraestructuras preparadas para escalar fácilmente,
   da igual que la usen un par de personas o varios millones que nuestras apps
   funcionaran para cualquier carga de trabajo desde el primer día.
@@ -23,16 +26,17 @@ intro:
       text: >
         Usamos la tecnologia que actualmente usan los gigantes como
         Facebook, AirBnB, Uber... y con ellas creamos aplicaciones móviles modernas, además usamos la sinergia entre React.js y React Native para crear de esta forma aplicaciones nativas y páginas webs reutilizando muchas partes entre ambas y de esta forma desarrollar el proyecto de una forma rápida.
-    - image: /img/tutorials.png
+    - image: /img/coffee-gear.png
       text: >
         Somos expertos en crear arquitecturas ServerLess usando esta tecnología
         abaratando de esta forma el mantenimiento y coste operativo a largo plazo.
     - image: /img/tutorials.png
       text: >
-        Somos expertos en crear arquitecturas ServerLess usando esta tecnología
-        abaratando de esta forma el mantenimiento y coste operativo a largo plazo.
-
-  heading: What we offer
+        TODO 1
+    - image: /img/meeting-space.png
+      text: >
+        TODO 1
+  heading: Que ofrecemos
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
@@ -48,19 +52,10 @@ main:
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
-    text: >
-      Somos expertos en crear arquitecturas ServerLess usando esta tecnología
-      abaratando de esta forma el mantenimiento y coste operativo a largo plazo.
   image2:
     alt: A green cup of a coffee on a wooden table
     image: /img/products-grid2.jpg
-    text: >
-      Somos expertos en crear arquitecturas ServerLess usando esta tecnología
-      abaratando de esta forma el mantenimiento y coste operativo a largo plazo.
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
-    text: >
-      Somos expertos en crear arquitecturas ServerLess usando esta tecnología
-      abaratando de esta forma el mantenimiento y coste operativo a largo plazo.
 ---
