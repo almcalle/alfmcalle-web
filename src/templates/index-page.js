@@ -65,6 +65,11 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
+        <div className="column is-12 has-text-centered">
+          <Link className="btn" to="/contact">
+            Contactanos
+          </Link>
+        </div>
       </div>
     </div>
     <section className="section section--gradient">
