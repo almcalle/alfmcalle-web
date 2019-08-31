@@ -7,12 +7,12 @@ subheading: El desarrollo para Startups hecho fácil
 mainpitch:
   title: Why Kaldi
   description: >
-  Somos los mejores
+    Somos los mejores
 
-  Creamos infraestructuras preparadas para escalar fácilmente,
-  da igual que la usen un par de personas o varios millones que nuestras apps
-  funcionaran para cualquier carga de trabajo desde el primer día.
-  Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup
+    Creamos infraestructuras preparadas para escalar fácilmente,
+    da igual que la usen un par de personas o varios millones que nuestras apps
+    funcionaran para cualquier carga de trabajo desde el primer día.
+    Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup
 description: >-
   Creamos infraestructuras preparadas para escalar fácilmente,
   da igual que la usen un par de personas o varios millones que nuestras apps
