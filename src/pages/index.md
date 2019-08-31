@@ -12,14 +12,12 @@ mainpitch:
   Creamos infraestructuras preparadas para escalar fácilmente,
   da igual que la usen un par de personas o varios millones que nuestras apps
   funcionaran para cualquier carga de trabajo desde el primer día.
-
-  Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup.
+  Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup
 description: >-
   Creamos infraestructuras preparadas para escalar fácilmente,
   da igual que la usen un par de personas o varios millones que nuestras apps
   funcionaran para cualquier carga de trabajo desde el primer día.
-
-  Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup.
+  Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup
 intro:
   blurbs:
     - image: /img/coffee.png
