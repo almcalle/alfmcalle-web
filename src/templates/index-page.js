@@ -69,7 +69,7 @@ export const IndexPageTemplate = ({
           }}
           >
           <Link className="btn" to="/contact">
-            Contáctanos
+            {contactUs}
           </Link>
         </div>
       </div>
@@ -91,7 +91,7 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      {intro.heading}
+                      {intro.title}
                     </h3>
                     <p>{intro.description}</p>
                   </div>
@@ -123,7 +123,7 @@ export const IndexPageTemplate = ({
               <div className="columns">
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    {apps.heading}
+                    {apps.title}
                   </h3>
                   <p>{apps.description}</p>
                 </div>
@@ -144,7 +144,7 @@ export const IndexPageTemplate = ({
         }}
         >
         <Link className="btn" to="/contact">
-          Contáctanos
+          {contactUs}
         </Link>
       </div>
     </section>
@@ -181,6 +181,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         apps={frontmatter.apps}
+        contactUs={frontmatter.contactUs}
       />
     </Layout>
   )
