@@ -33,8 +33,13 @@ apps:
     - text: ¡Abajo el postureo!
       title: PicTime
       image: /img/pictime-logo.png
-  description: Nuestras Apps Descripción
-  title: Nuestras Apps
+  description: >-
+    Aquí podéis ver algunas de las aplicaciones creadas por nosotros.
+
+
+    En ellas se puede ver el resultado de nuestra técnica, le recomendamos
+    descargarla y comprobar de primera mano lo que podemos crear.
+  title: Nuestras aplicaciones
 footer: >-
   ¿Tienes alguna pregunta? ¿Te gustaría que hagamos una aplicación para tí? Haz
   click en el siguiente botón y envíanos un mensaje
