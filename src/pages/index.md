@@ -4,6 +4,7 @@ title: STARTling Apps
 image: /img/home-jumbotron.png
 heading: STARTling Apps
 subheading: El desarrollo para Startups hecho fácil
+contactUs: Contáctanos
 mainpitch:
   title: ¿Porqué elegirnos?
   description: >
