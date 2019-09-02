@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: ALFMCalle Apps
-image: /img/home-jumbotron.jpg
+image: /img/home-jumbotron.png
 heading: ALFMCalle Apps
 subheading: El desarrollo para Startups hecho fácil
 contactUs: Contáctanos
