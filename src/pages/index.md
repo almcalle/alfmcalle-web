@@ -35,10 +35,8 @@ intro:
         partes entre ambas y de esta forma desarrollar el proyecto de una forma
         rápida.
   heading: Heading Tecnologia
-  description: Nuestra Tecnologia Descripción
 apps:
-  title: Nuestra Tecnologia
-  description: Nuestra Tecnologia Descripcion
+  title: Nuestras Apps
   seeMore: See More
   seeMoreUrl: /products
   blurbs:
