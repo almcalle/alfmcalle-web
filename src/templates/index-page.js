@@ -73,7 +73,7 @@ export const IndexPageTemplate = ({
           }}
           >
           <Link className="btn" to="/contact">
-            {contactUs}
+            Contáctanos
           </Link>
         </div>
       </div>
