@@ -14,6 +14,10 @@ mainpitch:
     para tu negocio, creando de forma rápida todo lo necesario para tu Startup
 description: Descripción Principal
 intro:
+  title: Nuestra Tecnologia
+  description: Nuestra Tecnologia Descripcion
+  seeMore: See More
+  seeMoreUrl: /products
   blurbs:
     - title: Arquitectura Serverless en la nube
       image: /img/cloud-computing.png
@@ -33,6 +37,10 @@ intro:
   heading: Heading Tecnologia
   description: Nuestra Tecnologia Descripción
 apps:
+  title: Nuestra Tecnologia
+  description: Nuestra Tecnologia Descripcion
+  seeMore: See More
+  seeMoreUrl: /products
   blurbs:
     - title: Pro-gress
       image: /img/pro-gress-logo.png
