@@ -20,7 +20,9 @@ intro:
         plazo.
       title: Arquitectura Serverless en la nube
       image: /img/cloud-computing.png
-  description: Nuestra Tecnologia Descripcion
+  description: >
+    Usamos la última tecnología para conseguir desarrollos punteros, escalables
+    y en poco tiempo.
   title: Nuestra Tecnologia
 apps:
   blurbs:
