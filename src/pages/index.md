@@ -19,21 +19,21 @@ description: >-
   Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/home-jumbotron.png
       title: Arquitectura serverless en la nube
       text: >
         Somos expertos en crear arquitecturas ServerLess usando esta tecnología
         abaratando de esta forma el mantenimiento y coste operativo a largo plazo.
-    - image: /img/coffee-gear.png
+    - image: /img/home-jumbotron.png
       title: React Native
       text: >
         Usamos la tecnologia que actualmente usan los gigantes como
         Facebook, AirBnB, Uber... y con ellas creamos aplicaciones móviles modernas, además usamos la sinergia entre React.js y React Native para crear de esta forma aplicaciones nativas y páginas webs reutilizando muchas partes entre ambas y de esta forma desarrollar el proyecto de una forma rápida.
-    - image: /img/tutorials.png
+    - image: /img/home-jumbotron.png
       title: React.js
       text: >
         TODO 1
-    - image: /img/meeting-space.png
+    - image: /img/home-jumbotron.png
       title:
       text: >
         TODO 3
@@ -53,11 +53,11 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/home-jumbotron.png
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/home-jumbotron.png
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/home-jumbotron.png
 ---
