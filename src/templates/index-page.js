@@ -192,10 +192,10 @@ export const pageQuery = graphql`
           description
         }
         description
-        introTech
-        descriptionTech
-        introTech
         intro {
+          title
+          description
+          seeMore
           blurbs {
             image {
               childImageSharp {
