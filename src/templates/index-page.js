@@ -14,7 +14,9 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
-  contactUs
+  contactUs,
+  introTech,
+  descriptionTech
 }) => (
   <div>
     <div
@@ -95,17 +97,17 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
+                      {intro.title}
                     </h3>
-                    <p>{description}</p>
+                    <p>{intro.description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
+                    {(intro.seeMore) && (<Link className="btn" to="/products">
+                      {intro.seeMore}
+                    </Link>)}
                   </div>
                 </div>
               {
@@ -190,6 +192,9 @@ export const pageQuery = graphql`
           description
         }
         description
+        introTech
+        descriptionTech
+        introTech
         intro {
           blurbs {
             image {

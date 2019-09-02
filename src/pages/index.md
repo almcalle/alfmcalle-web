@@ -6,21 +6,19 @@ heading: STARTling Apps
 subheading: El desarrollo para Startups hecho fácil
 contactUs: Contáctanos
 mainpitch:
-  title: Why Kaldi
+  title: ¿Porqué elegirnos?
   description: >
     Creamos infraestructuras preparadas para escalar fácilmente,
     da igual que la usen un par de personas o varios millones que nuestras apps
     funcionaran para cualquier carga de trabajo desde el primer día.
     Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup
-description: >-
-  Creamos infraestructuras preparadas para escalar fácilmente,
-  da igual que la usen un par de personas o varios millones que nuestras apps
-  funcionaran para cualquier carga de trabajo desde el primer día.
-  Usamos la última tecnología para tu negocio, creando de forma rápida todo lo necesario para tu Startup
+
 intro:
+  title: Nuestra Tecnologia
+  description: Nuestra Tecnologia Descripcion
   blurbs:
     - image: /img/home-jumbotron.png
-      title: Arquitectura serverless en la nube
+      title: Arquitectura ServerLess en la nube
       text: >
         Somos expertos en crear arquitecturas ServerLess usando esta tecnología
         abaratando de esta forma el mantenimiento y coste operativo a largo plazo.
