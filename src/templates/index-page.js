@@ -14,9 +14,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
-  contactUs,
-  introTech,
-  descriptionTech
+  contactUs
 }) => (
   <div>
     <div
@@ -105,9 +103,10 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    {(intro.seeMore) && (<Link className="btn" to="/products">
-                      {intro.seeMore}
-                    </Link>)}
+                    {(intro.seeMore) && (
+                      <Link className="btn" to={intro.seeMoreUrl}>
+                        {intro.seeMore}
+                      </Link>)}
                   </div>
                 </div>
               {

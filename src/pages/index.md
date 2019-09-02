@@ -16,6 +16,8 @@ mainpitch:
 intro:
   title: Nuestra Tecnologia
   description: Nuestra Tecnologia Descripcion
+  seeMore: See More
+  seeMoreUrl: /products
   blurbs:
     - image: /img/home-jumbotron.png
       title: Arquitectura ServerLess en la nube
