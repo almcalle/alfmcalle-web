@@ -34,7 +34,7 @@ intro:
 apps:
   blurbs:
     - text: |
-        Es la primera red social de calistenia en español del mundo. 
+        Es la primera red social de calistenia en español del mundo.
       title: Pro-gress
       image: /img/pro-gress-logo.png
     - text: ¡Abajo el postureo!
@@ -46,4 +46,3 @@ footer: >-
   ¿Tienes alguna pregunta? ¿Te gustaría que hagamos una aplicación para tí? Haz
   click en el siguiente botón y envíanos un mensaje
 ---
-
