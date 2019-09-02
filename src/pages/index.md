@@ -36,10 +36,10 @@ apps:
     - text: |
         Es la primera red social de calistenia en español del mundo. 
       title: Pro-gress
-      image: /img/home-jumbotron.png
+      image: /img/pro-gress-logo.png
     - text: ¡Abajo el postureo!
       title: PicTime
-      image: /img/home-jumbotron.png
+      image: /img/pictime-logo.png
   heading: Nuestras Apps
   description: Nuestras Apps Descripcion
 footer: >-
