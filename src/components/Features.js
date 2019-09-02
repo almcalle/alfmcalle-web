@@ -18,9 +18,10 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           {(item.title) && (
-            <h3 className="has-text-weight-semibold is-size-2">
-              {item.title}
-            </h3>
+              <h3 className="subtitle">
+                {item.title}
+              </h3>
+            </div>
           )}
           <p>{item.text}</p>
         </section>
