@@ -15,29 +15,29 @@ mainpitch:
 description: Descripción Principal
 intro:
   blurbs:
-    - text: >
+    - title: Arquitectura Serverless en la nube
+      image: /img/cloud-computing.png
+      text: >
         Somos expertos en crear arquitecturas ServerLess usando esta tecnología
         abaratando de esta forma el mantenimiento y coste operativo a largo
         plazo.
-      title: Arquitectura Serverless en la nube
-      image: /img/cloud-computing.png
-    - text: >
+    - title: React Native
+      image: /img/home-jumbotron.png
+      text: >
         Usamos la tecnologia que actualmente usan los gigantes como Facebook,
         AirBnB, Uber... y con ellas creamos aplicaciones móviles modernas,
         además usamos la sinergia entre React.js y React Native para crear de
         esta forma aplicaciones nativas y páginas webs reutilizando muchas
         partes entre ambas y de esta forma desarrollar el proyecto de una forma
         rápida.
-      title: React Native
-      image: /img/home-jumbotron.png
   heading: Heading Tecnologia
   description: Nuestra Tecnologia Descripción
 apps:
   blurbs:
-    - text: |
-        Es la primera red social de calistenia en español del mundo.
-      title: Pro-gress
+    - title: Pro-gress
       image: /img/pro-gress-logo.png
+      text: |
+        Es la primera red social de calistenia en español del mundo.
     - text: ¡Abajo el postureo!
       title: PicTime
       image: /img/pictime-logo.png
