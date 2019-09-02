@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Alfmcalle',
+    title: 'Startling Apps',
     description:
-      'Página personal con mis proyectos y lo que ofrezco.',
+      'Desarrollamos aplicaciones móviles y páginas web usando la última tecnología',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

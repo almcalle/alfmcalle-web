@@ -14,6 +14,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  apps,
   contactUs
 }) => (
   <div>
@@ -101,14 +102,16 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    {(intro.seeMore) && (
-                      <Link className="btn" to={intro.seeMoreUrl}>
-                        {intro.seeMore}
-                      </Link>)}
-                  </div>
-                </div>
+                {
+                  <div className="columns">
+                    <div className="column is-12 has-text-centered">
+                      {(intro.seeMore) && (
+                        <Link className="btn" to={intro.seeMoreUrl}>
+                          {intro.seeMore}
+                        </Link>)}
+                      </div>
+                    </div>
+                }
               {
                 //   <div className="column is-12">
                 //   <h3 className="has-text-weight-semibold is-size-2">
@@ -122,10 +125,29 @@ export const IndexPageTemplate = ({
                 //   </div>
                 // </div>
               }
+              <div className="columns">
+                <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    {apps.title}
+                  </h3>
+                  <p>{apps.description}</p>
+                </div>
+              </div>
+              <Features gridItems={apps.blurbs} />
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className="column is-12 has-text-centered"
+        style={{
+          marginTop: '30px'
+        }}
+        >
+        <Link className="btn" to="/contact">
+          Contáctanos
+        </Link>
       </div>
     </section>
   </div>
@@ -194,8 +216,9 @@ export const pageQuery = graphql`
         intro {
           title
           description
-          seeMore
           blurbs {
+            title
+            text
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {
@@ -203,12 +226,29 @@ export const pageQuery = graphql`
                 }
               }
             }
+          }
+          heading
+          description
+        }
+        apps {
+          title
+          description
+          blurbs {
+            title
             text
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           heading
           description
         }
       }
+
     }
   }
 `
