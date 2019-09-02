@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: ALFMCalle Apps
+title: STARTling Apps
 image: /img/home-jumbotron.png
-heading: ALFMCalle Apps
+heading: STARTling Apps
 subheading: El desarrollo para Startups hecho fácil
 contactUs: Contáctanos
 mainpitch:
