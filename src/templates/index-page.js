@@ -14,6 +14,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  contactUs
 }) => (
   <div>
     <div
@@ -65,9 +66,14 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        <div className="column is-12 has-text-centered">
+        <div
+          className="column is-12 has-text-centered"
+          style={{
+            marginTop: '30px'
+          }}
+          >
           <Link className="btn" to="/contact">
-            Contactanos
+            {contactUs}
           </Link>
         </div>
       </div>
@@ -169,6 +175,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        contactUs
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
