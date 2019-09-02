@@ -18,6 +18,7 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           {(item.title) && (
+            <div className="tile">
               <h3 className="subtitle">
                 {item.title}
               </h3>
