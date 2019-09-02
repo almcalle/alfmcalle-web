@@ -11,6 +11,7 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
+  footer,
   mainpitch,
   description,
   intro,
@@ -139,6 +140,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
+      <h3 className="subtitle">{footer}</h3>
       <div
         className="column is-12 has-text-centered"
         style={{
@@ -163,6 +165,9 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  apps: PropTypes.shape({
+    blurbs: PropTypes.array,
+  }),
 }
 
 const IndexPage = ({ data }) => {
@@ -174,6 +179,7 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
+        footer={frontmatter.footer}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
@@ -209,6 +215,7 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        footer
         mainpitch {
           title
           description

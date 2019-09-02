@@ -61,4 +61,5 @@ apps:
       title:
       text: >
         TODO 2
+footer: ¿Tienes alguna pregunta?
 ---
