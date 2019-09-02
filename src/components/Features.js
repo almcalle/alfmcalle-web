@@ -16,15 +16,15 @@ const FeatureGrid = ({ gridItems }) => (
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
+            {(item.title) && (
+              <div className="tile">
+                <h3>
+                  {item.title}
+                </h3>
+              </div>
+            )}
+            <p>{item.text}</p>
           </div>
-          {(item.title) && (
-            <div className="tile">
-              <h3 className="subtitle">
-                {item.title}
-              </h3>
-            </div>
-          )}
-          <p>{item.text}</p>
         </section>
       </div>
     ))}
