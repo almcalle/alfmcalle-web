@@ -6,50 +6,35 @@ heading: STARTling Apps
 subheading: El desarrollo para Startups hecho fácil
 contactUs: Contáctanos
 mainpitch:
-  title: ¿Porqué elegirnos?
   description: >
     Creamos infraestructuras preparadas para escalar fácilmente, da igual que la
     usen un par de personas o varios millones que nuestras apps funcionaran para
     cualquier carga de trabajo desde el primer día. Usamos la última tecnología
     para tu negocio, creando de forma rápida todo lo necesario para tu Startup
-description: Descripción Principal
+  title: ¿Porqué elegirnos?
 intro:
-  title: Nuestra Tecnologia
-  description: Nuestra Tecnologia Descripcion
-  seeMore: See More
-  seeMoreUrl: /products
   blurbs:
-    - title: Arquitectura Serverless en la nube
-      image: /img/cloud-computing.png
-      text: >
+    - text: >
         Somos expertos en crear arquitecturas ServerLess usando esta tecnología
         abaratando de esta forma el mantenimiento y coste operativo a largo
         plazo.
-    - title: React Native
-      image: /img/home-jumbotron.png
-      text: >
-        Usamos la tecnologia que actualmente usan los gigantes como Facebook,
-        AirBnB, Uber... y con ellas creamos aplicaciones móviles modernas,
-        además usamos la sinergia entre React.js y React Native para crear de
-        esta forma aplicaciones nativas y páginas webs reutilizando muchas
-        partes entre ambas y de esta forma desarrollar el proyecto de una forma
-        rápida.
-  heading: Heading Tecnologia
+      title: Arquitectura Serverless en la nube
+      image: /img/cloud-computing.png
+  description: Nuestra Tecnologia Descripcion
+  title: Nuestra Tecnologia
 apps:
-  title: Nuestras Apps
-  seeMore: See More
-  seeMoreUrl: /products
   blurbs:
-    - title: Pro-gress
-      image: /img/pro-gress-logo.png
-      text: |
+    - text: |
         Es la primera red social de calistenia en español del mundo.
+      title: Pro-gress
+      image: /img/pro-gress-logo.png
     - text: ¡Abajo el postureo!
       title: PicTime
       image: /img/pictime-logo.png
-  heading: Nuestras Apps
-  description: Nuestras Apps Descripcion
+  description: Nuestras Apps Descripción
+  title: Nuestras Apps
 footer: >-
   ¿Tienes alguna pregunta? ¿Te gustaría que hagamos una aplicación para tí? Haz
   click en el siguiente botón y envíanos un mensaje
 ---
+
