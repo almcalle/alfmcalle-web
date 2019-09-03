@@ -33,6 +33,8 @@ web:
   description: >-
     Construimos aplicaciones web modernas de todo tipo y tamaño usando las
     últimas tecnologias.
+
+    Arquitecturas autoescalables y sin mantenimiento
 apps:
   blurbs:
     - image: /img/pro-gress-logo.png
