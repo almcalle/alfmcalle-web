@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: STARTling Apps
-image: /img/home-jumbotron.png
+image: /img/milky-way.jpg
 heading: STARTling Apps
 subheading: El desarrollo para Startups hecho fácil
 contactUs: Contáctanos
