@@ -40,9 +40,11 @@ apps:
 
       title: Pro-gress
       image: /img/pro-gress-logo.png
+      url: 'https://pro-gress.app'
     - text: ¡Abajo el postureo!
       title: PicTime
       image: /img/pictime-logo.png
+      url: 'https://pictime.es'
   description: >-
     Aquí podéis ver algunas de las aplicaciones creadas por nosotros.
 
