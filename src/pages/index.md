@@ -20,6 +20,15 @@ intro:
         plazo.
       title: Arquitectura Serverless en la nube
       image: /img/cloud-computing.png
+    - text: >-
+        Gracias a la combinación de tecnologias que usamos esto nos permite
+        crear desarrollos a otro nivel de velocidad comparado con nuestros
+        competidores
+      title: Desarrollos a alta velocidad
+      image: /img/cloud-computing.png
+    - text: 'Gracias a la gran reutilización de '
+      title: Para todos los bolsillos
+      image: /img/cloud-computing.png
   description: >
     Usamos la última tecnología para conseguir desarrollos punteros, escalables
     y en poco tiempo.
