@@ -36,16 +36,18 @@ web:
 apps:
   blurbs:
     - image: /img/pro-gress-logo.png
-      text: >
-        If anything takes longer than 100ms, the user will feel it. A compelling
-        reason for using React Native instead of WebView-based tools is to
-        achieve 60 frames per second and a native look and feel to your apps.
+      text: >-
+        Si tarda más de 100ms el usuario lo notará. Es por esto por lo que
+        usamos React Native en vez de otros sistemas basados en WebView (Como
+        por ejemplo Ionic). Esto nos permite conseguir 60 frames por segundo y
+        un "look and feel" igual a una aplicación nativa.
       title: Rendimiento Nativo
     - image: /img/pictime-logo.png
       text: >-
-        It enables an entirely different style of development where you get
-        really quick feedback because of low compile times.
-      title: Fast development cycles
+        Permite un estilo completamente diferente de desarrollo sacando
+        versiones que pueden ser probadas por los usuarios y obtener el feedback
+        necesario al crear una aplicación.
+      title: Rápido ciclo de desarrollo
     - image: /img/pictime-logo.png
       text: >-
         It enables an entirely different style of development where you get
@@ -56,11 +58,12 @@ apps:
       title: Reutilización de código
   title: Desarrollo de aplicaciones móviles
   description: >-
-    Our unique mobile app development process allows us to rapidly build
-    cross-platform apps at a fraction of the cost. We build mobile apps using
-    React Native , a revolutionary framework built by Facebook in 2015. React
-    Native allows us to build iOS and Android apps using just one code base
-    (instead of two). This reduces the time and cost to build cross-platform
-    apps by 50% or more, without sacrificing speed or quality.
+    Nuestro proceso único de desarrollo de aplicaciones móviles nos permite
+    rápidamente crear apps multiplataforma a una fracción del coste de otras
+    empresas. Creamos aplicaciones modernas usando React Native, un framework
+    revolucionario construido por Facebook en 2015. React Native nos permite
+    construir Apps de iOs y Android usando solo un código fuente (en vez de
+    dos). Esto permite reducir el tiempo y el coste de desarrollo de las
+    aplicaciones móviles en un 50% o más, sin sacrificar velocidad o calidad.
 ---
 
