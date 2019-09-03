@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: STARTling Apps
-image: /img/home-jumbotron.png
+image: /img/milky-way.jpg
 heading: STARTling Apps
 subheading: El desarrollo para Startups hecho fácil
 contactUs: Contáctanos
@@ -25,7 +25,7 @@ intro:
         desarrollos a otro nivel de velocidad comparado con nuestros
         competidores
       title: Desarrollos a alta velocidad
-      image: /img/fast-icon.png
+      image: /img/fast-development.jpg
   description: >
     Usamos la última tecnología para conseguir desarrollos punteros, escalables
     y en poco tiempo.

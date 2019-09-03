@@ -32,7 +32,7 @@ apps:
         por ejemplo Ionic). Esto nos permite conseguir 60 frames por segundo y
         un "look and feel" igual a una aplicación nativa.
       title: Rendimiento Nativo
-    - image: /img/fast-icon.png
+    - image: /img/fast-development.jpg
       text: >-
         Permite un estilo completamente diferente de desarrollo sacando
         versiones que pueden ser probadas por los usuarios y obtener el feedback
