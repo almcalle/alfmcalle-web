@@ -12,22 +12,11 @@ web:
         carga rápido incluso aunque haya una carga de datos pesada gracias al
         uso de buenas practicas en el diseño.
       title: Rendimiento
-    - image: /img/puzzle.jpg
-      text: >-
-        Usamos componentes a medida altamente reutilizables para facilitar
-        desarrollos futuros y disminuir la deuda técnica.
-      title: Componentes reutilizables
     - image: /img/responsive.png
       text: >-
         Ajustamos la página web a todo tipo de pantallas y velocidad de internet
         para servir a todos tus consumidores.
       title: Responsive
-    - image: /img/growth-icon.png
-      text: >-
-        Nuestra infraestructura en la nube nos permite crear aplicaciones
-        autoescalables y sin ningún tipo mantenimiento y además pagando solo por
-        los recursos consumidos.
-      title: Construido para escalar
   title: Desarrollo Web
   description: >-
     Construimos aplicaciones web modernas de todo tipo y tamaño usando las
@@ -49,6 +38,17 @@ apps:
         versiones que pueden ser probadas por los usuarios y obtener el feedback
         necesario al crear una aplicación.
       title: Rápido ciclo de desarrollo
+    - image: /img/puzzle.jpg
+      text: >-
+          Usamos componentes a medida altamente reutilizables para facilitar
+          desarrollos futuros y disminuir la deuda técnica.
+      title: Componentes reutilizables
+    - image: /img/growth-icon.png
+      text: >-
+      Nuestra infraestructura en la nube nos permite crear aplicaciones
+      autoescalables y sin ningún tipo mantenimiento y además pagando solo por
+      los recursos consumidos.
+      title: Construido para escalar
   title: Desarrollo de aplicaciones móviles
   description: >-
     Nuestro proceso único de desarrollo de aplicaciones móviles nos permite
@@ -59,4 +59,3 @@ apps:
     dos). Esto permite reducir el tiempo y el coste de desarrollo de las
     aplicaciones móviles en un 50% o más, sin sacrificar velocidad o calidad.
 ---
-
