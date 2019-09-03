@@ -17,7 +17,7 @@ web:
         Usamos componentes a medida altamente reutilizables para facilitar
         desarrollos futuros y disminuir la deuda técnica.
       title: Componentes reutilizables
-    - image: /img/cloud-computing.png
+    - image: /img/responsive.png
       text: >-
         Ajustamos la página web a todo tipo de pantallas y velocidad de internet
         para servir a todos tus consumidores.
