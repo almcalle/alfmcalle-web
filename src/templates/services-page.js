@@ -125,7 +125,7 @@ export default ServicesPage
 
 export const pageQuery = graphql`
   query ServicesPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "services-page" } }) {
       frontmatter {
         title
         description
