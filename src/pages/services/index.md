@@ -4,6 +4,10 @@ title: STARTling Apps
 contactUs: Contáctanos
 description: Lo que ofrecemos
 web:
+  description: >
+    Usamos la última tecnología para conseguir desarrollos punteros, escalables
+    y en poco tiempo.
+  title: Webs
   blurbs:
     - text: >
         Somos expertos en crear arquitecturas ServerLess usando esta tecnología
@@ -20,10 +24,6 @@ web:
     - text: 'Gracias a la gran reutilización de '
       title: Para todos los bolsillos
       image: /img/cloud-computing.png
-  description: >
-    Usamos la última tecnología para conseguir desarrollos punteros, escalables
-    y en poco tiempo.
-  title: Nuestra Tecnologia
 apps:
   blurbs:
     - text: |
