@@ -25,7 +25,7 @@ intro:
         desarrollos a otro nivel de velocidad comparado con nuestros
         competidores
       title: Desarrollos a alta velocidad
-      image: /img/fast-icon.png
+      image: /img/fast-development.jpg
   description: >
     Usamos la última tecnología para conseguir desarrollos punteros, escalables
     y en poco tiempo.
