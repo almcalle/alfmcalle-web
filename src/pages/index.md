@@ -35,8 +35,9 @@ intro:
   title: Nuestra Tecnologia
 apps:
   blurbs:
-    - text: |
-        Es la primera red social de calistenia en español del mundo.
+    - text: |+
+        Es la primera red social de calistenia del mundo. 
+
       title: Pro-gress
       image: /img/pro-gress-logo.png
     - text: ¡Abajo el postureo!
