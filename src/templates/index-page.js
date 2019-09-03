@@ -136,7 +136,7 @@ export const IndexPageTemplate = ({
         <div className="content">
           <div className="tile">
             <h3 className="subtitle" style={{
-                textAling: 'center'
+                textAlign: 'center'
               }}>
               {footer}
             </h3>
