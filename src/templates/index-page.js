@@ -247,6 +247,7 @@ export const pageQuery = graphql`
           blurbs {
             title
             text
+            url
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {

@@ -22,7 +22,7 @@ const FeatureGrid = ({ gridItems }) => (
                 </h3>
             )}
             <p>{item.text}</p>
-            {(
+            {(item.url) && (
               <a className="btn" href={item.url} target="_blank">Saber más</a>
             )}
           </div>
