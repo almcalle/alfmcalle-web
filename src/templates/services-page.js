@@ -23,6 +23,15 @@ export const ServicesPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
+                      {apps.title}
+                    </h3>
+                    <p>{apps.description}</p>
+                  </div>
+                </div>
+                <Features gridItems={apps.blurbs} />
+                <div className="columns">
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2">
                       {web.title}
                     </h3>
                     <p>{web.description}</p>
@@ -52,15 +61,6 @@ export const ServicesPageTemplate = ({
                 //   </div>
                 // </div>
               }
-              <div className="columns">
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    {apps.title}
-                  </h3>
-                  <p>{apps.description}</p>
-                </div>
-              </div>
-              <Features gridItems={apps.blurbs} />
               </div>
             </div>
           </div>
