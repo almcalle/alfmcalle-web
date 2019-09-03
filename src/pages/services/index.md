@@ -5,7 +5,7 @@ description: Estos son los servicios que ofrecemos
 contactUs: Contáctanos
 web:
   blurbs:
-    - image: /img/cloud-computing.png
+    - image: /img/fast-icon.png
       text: >
         La velocidad de las páginas web es crucial y afecta a la conversión y
         tambien al raking en los buscadores. Nos aseguramos de un tiempo de
@@ -24,10 +24,9 @@ web:
       title: Responsive
     - image: /img/cloud-computing.png
       text: >-
-        Our backend architecture is well designed for specific use-cases, with
-        microservices and event sourcing if required. We use optimized queries,
-        efficient database indexes and build cache driven realtime applications
-        with scale in mind.
+        Nuestra infraestructura en la nube nos permite crear aplicaciones
+        autoescalables y sin ningún tipo mantenimiento y además pagando solo por
+        los recursos consumidos.
       title: Construido para escalar
   title: Desarrollo Web
   description: >-
@@ -37,24 +36,19 @@ web:
     Arquitecturas autoescalables y sin mantenimiento
 apps:
   blurbs:
-    - image: /img/pro-gress-logo.png
+    - image: /img/react-native.png
       text: >-
         Si tarda más de 100ms el usuario lo notará. Es por esto por lo que
         usamos React Native en vez de otros sistemas basados en WebView (Como
         por ejemplo Ionic). Esto nos permite conseguir 60 frames por segundo y
         un "look and feel" igual a una aplicación nativa.
       title: Rendimiento Nativo
-    - image: /img/pictime-logo.png
+    - image: /img/fast-icon.png
       text: >-
         Permite un estilo completamente diferente de desarrollo sacando
         versiones que pueden ser probadas por los usuarios y obtener el feedback
         necesario al crear una aplicación.
       title: Rápido ciclo de desarrollo
-    - image: /img/pictime-logo.png
-      text: >-
-        La arquitectura que usamos permita además la reutilización de código con
-        la aplicación web
-      title: Reutilización de código
   title: Desarrollo de aplicaciones móviles
   description: >-
     Nuestro proceso único de desarrollo de aplicaciones móviles nos permite
