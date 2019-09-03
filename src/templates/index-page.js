@@ -133,21 +133,25 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
-      </div>
-      <div className="content">
-        <div className="tile">
-          <h3 className="subtitle">{footer}</h3>
+        <div className="content">
+          <div className="tile">
+            <h3 className="subtitle" style={{
+                textAling: 'center'
+              }}>
+              {footer}
+            </h3>
+          </div>
         </div>
-      </div>
-      <div
-        className="column is-12 has-text-centered"
-        style={{
-          marginTop: '30px'
-        }}
-        >
-        <Link className="btn" to="/contact">
-          {contactUs}
-        </Link>
+        <div
+          className="column is-12 has-text-centered"
+          style={{
+            marginTop: '30px'
+          }}
+          >
+          <Link className="btn" to="/contact">
+            {contactUs}
+          </Link>
+        </div>
       </div>
     </section>
   </div>
