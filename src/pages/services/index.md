@@ -22,7 +22,7 @@ web:
         Ajustamos la página web a todo tipo de pantallas y velocidad de internet
         para servir a todos tus consumidores.
       title: Responsive
-    - image: /img/cloud-computing.png
+    - image: /img/growth-icon.png
       text: >-
         Nuestra infraestructura en la nube nos permite crear aplicaciones
         autoescalables y sin ningún tipo mantenimiento y además pagando solo por
