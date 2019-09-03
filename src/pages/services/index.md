@@ -17,8 +17,8 @@ web:
     - text: Regardless of screen size or connection speed we strive to serve all your customers
       title: Responsive
       image: /img/cloud-computing.png
-    - text: Regardless of screen size or connection speed we strive to serve all your customers
-      title: Escalable
+    - text:  Our backend architecture is well designed for specific use-cases, with microservices and event sourcing if required. We use optimized queries, efficient database indexes and build cache driven realtime applications with scale in mind.
+      title: Built for scale
       image: /img/cloud-computing.png
 apps:
   blurbs:
