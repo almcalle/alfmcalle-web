@@ -25,7 +25,7 @@ intro:
         crear desarrollos a otro nivel de velocidad comparado con nuestros
         competidores
       title: Desarrollos a alta velocidad
-      image: /img/cloud-computing.png
+      image: /img/fast-icon.png
     - text: 'Gracias a la gran reutilización de '
       title: Para todos los bolsillos
       image: /img/cloud-computing.png
