@@ -1,45 +1,42 @@
 ---
 templateKey: services-page
-title: STARTling Apps
+title: Nuestros servicios
 contactUs: Contáctanos
-description: Lo que ofrecemos
+description: Estos son los servicios que ofrecemos
 web:
-  description: >
-    Usamos la última tecnología para conseguir desarrollos punteros, escalables
-    y en poco tiempo.
-  title: Webs
+  description: We build modern web applications of all shapes and sizes using the latest technologies.
+  title: Web Development
   blurbs:
     - text: >
-        Somos expertos en crear arquitecturas ServerLess usando esta tecnología
-        abaratando de esta forma el mantenimiento y coste operativo a largo
-        plazo.
-      title: Arquitectura Serverless en la nube
+        Low Page speeds are crucial and affect conversion as well as search engine ranking. Even if data heavy we ensure a quick load time by using best practices.
+      title: Performance
       image: /img/cloud-computing.png
-    - text: >-
-        Gracias a la combinación de tecnologias que usamos esto nos permite
-        crear desarrollos a otro nivel de velocidad comparado con nuestros
-        competidores
-      title: Desarrollos a alta velocidad
+    - text: Tailored shared components ease future development and reduce technical debt
+      title: Reusable Components
       image: /img/fast-icon.png
-    - text: 'Gracias a la gran reutilización de '
-      title: Para todos los bolsillos
+    - text: Regardless of screen size or connection speed we strive to serve all your customers
+      title: Responsive
+      image: /img/cloud-computing.png
+    - text: Regardless of screen size or connection speed we strive to serve all your customers
+      title: Escalable
       image: /img/cloud-computing.png
 apps:
   blurbs:
     - text: |
-        Es la primera red social de calistenia en español del mundo.
-      title: Pro-gress
+        If anything takes longer than 100ms, the user will feel it. A compelling reason for using React Native instead of WebView-based tools is to achieve 60 frames per second and a native look and feel to your apps.
       image: /img/pro-gress-logo.png
-    - text: ¡Abajo el postureo!
-      title: PicTime
+    - text: It enables an entirely different style of development where you get really quick feedback because of low compile times.
+      title: Fast development cycles
+      image: /img/pictime-logo.png
+    - text: It enables an entirely different style of development where you get really quick feedback because of low compile times.
+      title: Fast development cycles
+      image: /img/pictime-logo.png
+    - text: Reutilización de código.
+      title: Reutilización de código
       image: /img/pictime-logo.png
   description: >-
-    Aquí podéis ver algunas de las aplicaciones creadas por nosotros.
-
-
-    En ellas se puede ver el resultado de nuestra técnica, le recomendamos
-    descargarla y comprobar de primera mano lo que podemos crear.
-  title: Nuestras aplicaciones
+    Our unique mobile app development process allows us to rapidly build cross-platform apps at a fraction of the cost. We build mobile apps using React Native , a revolutionary framework built by Facebook in 2015. React Native allows us to build iOS and Android apps using just one code base (instead of two). This reduces the time and cost to build cross-platform apps by 50% or more, without sacrificing speed or quality.
+  title: Desarrollo de aplicaciones móviles
 footer: >-
   ¿Tienes alguna pregunta? ¿Te gustaría que hagamos una aplicación para tí? Haz
   click en el siguiente botón y envíanos un mensaje
