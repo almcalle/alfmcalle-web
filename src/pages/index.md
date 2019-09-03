@@ -19,7 +19,7 @@ intro:
         abaratando de esta forma el mantenimiento y coste operativo a largo
         plazo.
       title: Arquitectura Serverless en la nube
-      image: /img/cloud-computing.png
+      image: /img/cloud-icon.png
     - text: >-
         Gracias a la combinación de tecnologias que usamos podemos crear
         desarrollos a otro nivel de velocidad comparado con nuestros
@@ -37,11 +37,11 @@ apps:
 
       title: Pro-gress
       image: /img/pro-gress-logo.png
-      url: https://pro-gress.app
+      url: 'https://pro-gress.app'
     - text: ¡Abajo el postureo!
       title: PicTime
       image: /img/pictime-logo.png
-      url: https://pictime.es
+      url: 'https://pictime.es'
   description: >-
     Aquí podéis ver algunas de las aplicaciones creadas por nosotros.
 
@@ -53,3 +53,4 @@ footer: >-
   ¿Tienes alguna pregunta? ¿Te gustaría que hagamos una aplicación para tí? Haz
   click en el siguiente botón y envíanos un mensaje
 ---
+
