@@ -12,7 +12,7 @@ web:
         carga rápido incluso aunque haya una carga de datos pesada gracias al
         uso de buenas practicas en el diseño.
       title: Rendimiento
-    - image: /img/fast-icon.png
+    - image: /img/puzzle.jpg
       text: >-
         Usamos componentes a medida altamente reutilizables para facilitar
         desarrollos futuros y disminuir la deuda técnica.
