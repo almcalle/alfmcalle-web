@@ -21,8 +21,8 @@ intro:
       title: Arquitectura Serverless en la nube
       image: /img/cloud-computing.png
     - text: >-
-        Gracias a la combinación de tecnologias que usamos esto nos permite
-        crear desarrollos a otro nivel de velocidad comparado con nuestros
+        Gracias a la combinación de tecnologias que usamos podemos crear
+        desarrollos a otro nivel de velocidad comparado con nuestros
         competidores
       title: Desarrollos a alta velocidad
       image: /img/fast-icon.png
