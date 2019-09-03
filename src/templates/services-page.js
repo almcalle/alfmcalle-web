@@ -86,13 +86,9 @@ export const ServicesPageTemplate = ({
 )
 
 ServicesPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
+  web: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
   apps: PropTypes.shape({
@@ -148,8 +144,6 @@ export const pageQuery = graphql`
               }
             }
           }
-          heading
-          description
         }
         apps {
           title
