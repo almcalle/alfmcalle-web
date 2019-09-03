@@ -44,11 +44,10 @@ apps:
           desarrollos futuros y disminuir la deuda técnica.
       title: Componentes reutilizables
     - image: /img/growth-icon.png
-      text: >-
-      Nuestra infraestructura en la nube nos permite crear aplicaciones
+      title: Construido para escalar
+      text: Nuestra infraestructura en la nube nos permite crear aplicaciones
       autoescalables y sin ningún tipo mantenimiento y además pagando solo por
       los recursos consumidos.
-      title: Construido para escalar
   title: Desarrollo de aplicaciones móviles
   description: >-
     Nuestro proceso único de desarrollo de aplicaciones móviles nos permite
