@@ -26,9 +26,6 @@ intro:
         competidores
       title: Desarrollos a alta velocidad
       image: /img/fast-icon.png
-    - text: 'Gracias a la gran reutilización de '
-      title: Para todos los bolsillos
-      image: /img/cloud-computing.png
   description: >
     Usamos la última tecnología para conseguir desarrollos punteros, escalables
     y en poco tiempo.
