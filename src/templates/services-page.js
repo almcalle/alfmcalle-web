@@ -10,7 +10,8 @@ export const ServicesPageTemplate = ({
   description,
   web,
   apps,
-  contactUs
+  contactUs,
+  footer
 }) => (
   <div>
     <section className="section section--gradient">
@@ -110,6 +111,7 @@ const ServicesPage = ({ data }) => {
         web={frontmatter.web}
         apps={frontmatter.apps}
         contactUs={frontmatter.contactUs}
+        footer={frontmatter.footer}
       />
     </Layout>
   )
