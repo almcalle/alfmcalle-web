@@ -50,11 +50,8 @@ apps:
       title: Rápido ciclo de desarrollo
     - image: /img/pictime-logo.png
       text: >-
-        It enables an entirely different style of development where you get
-        really quick feedback because of low compile times.
-      title: Fast development cycles
-    - image: /img/pictime-logo.png
-      text: Reutilización de código.
+        La arquitectura que usamos permita además la reutilización de código con
+        la aplicación web
       title: Reutilización de código
   title: Desarrollo de aplicaciones móviles
   description: >-
