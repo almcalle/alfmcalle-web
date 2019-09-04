@@ -7,10 +7,8 @@ subheading: El desarrollo para Startups hecho fácil
 contactUs: Contáctanos
 mainpitch:
   description: >
-    Creamos infraestructuras preparadas para escalar fácilmente, da igual que la
-    usen un par de personas o varios millones que nuestras apps funcionaran para
-    cualquier carga de trabajo desde el primer día. Usamos la última tecnología
-    para tu negocio, creando de forma rápida todo lo necesario para tu Startup
+    Usamos la última tecnología para tu negocio, creando de forma rápida todo lo
+    necesario para tu Startup
   title: ¿Porqué elegirnos?
 intro:
   blurbs:
@@ -26,6 +24,12 @@ intro:
         competidores
       title: Desarrollos a alta velocidad
       image: /img/fast-development.jpg
+    - text: >-
+        Creamos infraestructuras preparadas para escalar fácilmente, da igual
+        que la usen un par de personas o varios millones que nuestras apps
+        funcionaran para cualquier carga de trabajo desde el primer día
+      title: Preparado para el crecimiento
+      image: /img/growth-icon.png
   description: >
     Usamos la última tecnología para conseguir desarrollos punteros, escalables
     y en poco tiempo.
