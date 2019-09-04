@@ -63,13 +63,13 @@ apps:
         Una  APP  de servicios para el hogar y empresas creada para Córdoba
         (Argentina)
       title: Semismanos
-      image: /img/pro-gress-logo.png
+      image: /img/semismanos.png
       url: 'http://semismanos.com/'
     - text: >-
         Una serie de aplicaciones educativas para aprender Historia y ayudar al
         estudio de forma más didáctica y de forma interactiva
       title: Kalixto
-      image: /img/pro-gress-logo.png
+      image: /img/icon.png
       url: 'https://apps.apple.com/es/developer/juan-manuel-corchado/id1386745961'
   description: >-
     Aquí podéis ver algunas de las aplicaciones creadas por nosotros.
