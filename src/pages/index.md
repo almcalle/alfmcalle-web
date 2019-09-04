@@ -15,7 +15,7 @@ intro:
     - text: >
         Somos expertos en crear arquitecturas en la nube y gracias a ello
         abaratar el mantenimiento y coste operativo a largo plazo.
-      title: Arquitectura Serverless en la nube
+      title: Arquitectura serverless en la nube
       image: /img/cloud-icon.png
     - text: >-
         Gracias a la combinación de tecnologias que usamos podemos crear
