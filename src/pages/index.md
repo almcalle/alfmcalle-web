@@ -42,13 +42,20 @@ intro:
   title: Nuestra Tecnologia
 apps:
   blurbs:
-    - text: |+
-        Es la primera red social de calistenia del mundo
+    - text: >+
+        Es la primera red social de calistenia del mundo.
+
+        En ella los usuarios pueden crear sus propias rutinas de entrenamiento,
+        compartirlas con la comunidad, ver videos de la realización de cada
+        ejercicio, subir un video de perfil para mostrar sus habilidades y mucho
+        más!
 
       title: Pro-gress
       image: /img/pro-gress-logo.png
       url: 'https://pro-gress.app'
-    - text: ¡Abajo el postureo!
+    - text: >-
+        ¡Abajo el postureo! Este es el lema de esta red social, esta basada en
+        subir fotos/videos reales cuando te llega una notificación Push
       title: PicTime
       image: /img/pictime-logo.png
       url: 'https://pictime.es'
