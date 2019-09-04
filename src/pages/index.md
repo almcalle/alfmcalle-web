@@ -30,10 +30,10 @@ intro:
       title: Preparado para el crecimiento
       image: /img/growth-icon.png
     - text: >-
-        Sabemos que el time-to-market es esencial para una Startup o para
-        validar una idea de negocio de forma rápida y sin malgastar recursos.
+        Sabemos que el time-to-market es esencial para un negocio o para validar
+        una idea de negocio de forma rápida y sin malgastar recursos.
       title: Desarrollo rápido y a buen precio
-      image: /img/fast-icon.png
+      image: /img/low-cost.png
   description: >
     Usamos la última tecnología para conseguir desarrollos punteros, escalables
     y en poco tiempo.
