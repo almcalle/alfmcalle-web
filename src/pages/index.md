@@ -20,19 +20,20 @@ intro:
     - text: >-
         Creemos que el time-to-market es esencial para un negocio y gracias a la
         combinación de tecnologias que usamos podemos crear desarrollos a otro
-        nivel de velocidad comparado con nuestros competidores
+        nivel de velocidad comparado con nuestros competidores.
       title: Desarrollos a alta velocidad
       image: /img/fast-development.jpg
     - text: >-
         Creamos infraestructuras preparadas para escalar fácilmente, da igual
         que la usen un par de personas o varios millones que nuestras apps
-        funcionaran para cualquier carga de trabajo desde el primer día
+        funcionaran para cualquier carga de trabajo desde el primer día.
       title: Preparado para el crecimiento
       image: /img/growth-icon.png
     - text: >-
         Hacemos todo tipo de desarrollos, desde grandes desarrollos hasta
-        pequeños proyectos para validar una idea de negocio de forma rápida y
-        para todo tipo de bolsillos 
+        pequeños proyectos para validar una idea de negocio de forma rápida
+        gracias a la gran reutilización de código que permite las tecnologías
+        que usamos.
       title: Desarrollo rápido y a buen precio
       image: /img/low-cost.png
   description: >
