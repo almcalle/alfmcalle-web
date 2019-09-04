@@ -7,8 +7,8 @@ subheading: El desarrollo hecho fácil
 contactUs: Contáctanos
 mainpitch:
   description: >
-    Usamos la última tecnología para tu negocio, creando de forma rápida todo lo
-    necesario para tu negocio.
+    Usamos la última tecnología, creando de forma rápida todo lo necesario para
+    tu negocio.
   title: ¿Porqué elegirnos?
 intro:
   blurbs:
