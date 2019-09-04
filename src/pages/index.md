@@ -59,6 +59,12 @@ apps:
       title: PicTime
       image: /img/pictime-logo.png
       url: 'https://pictime.es'
+    - text: >-
+        Una  APP  de servicios para el hogar y empresas creada para Córdoba
+        (Argentina)
+      title: Semismanos
+      image: /img/pro-gress-logo.png
+      url: 'http://semismanos.com/'
   description: >-
     Aquí podéis ver algunas de las aplicaciones creadas por nosotros.
 
