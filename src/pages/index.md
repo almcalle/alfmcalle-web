@@ -18,9 +18,9 @@ intro:
       title: Arquitectura serverless en la nube
       image: /img/cloud-icon.png
     - text: >-
-        Gracias a la combinación de tecnologias que usamos podemos crear
-        desarrollos a otro nivel de velocidad comparado con nuestros
-        competidores
+        Creemos que el time-to-market es esencial para un negocio y gracias a la
+        combinación de tecnologias que usamos podemos crear desarrollos a otro
+        nivel de velocidad comparado con nuestros competidores
       title: Desarrollos a alta velocidad
       image: /img/fast-development.jpg
     - text: >-
@@ -30,8 +30,9 @@ intro:
       title: Preparado para el crecimiento
       image: /img/growth-icon.png
     - text: >-
-        Sabemos que el time-to-market es esencial para un negocio o para validar
-        una idea de negocio de forma rápida y sin malgastar recursos.
+        Hacemos todo tipo de desarrollos, desde grandes desarrollos hasta
+        pequeños proyectos para validar una idea de negocio de forma rápida y
+        para todo tipo de bolsillos 
       title: Desarrollo rápido y a buen precio
       image: /img/low-cost.png
   description: >
@@ -41,7 +42,7 @@ intro:
 apps:
   blurbs:
     - text: |+
-        Es la primera red social de calistenia del mundo.
+        Es la primera red social de calistenia del mundo
 
       title: Pro-gress
       image: /img/pro-gress-logo.png
