@@ -13,9 +13,8 @@ mainpitch:
 intro:
   blurbs:
     - text: >
-        Somos expertos en crear arquitecturas ServerLess usando esta tecnología
-        abaratando de esta forma el mantenimiento y coste operativo a largo
-        plazo.
+        Somos expertos en crear arquitecturas en la nube y gracias a ello
+        abaratar el mantenimiento y coste operativo a largo plazo.
       title: Arquitectura Serverless en la nube
       image: /img/cloud-icon.png
     - text: >-
