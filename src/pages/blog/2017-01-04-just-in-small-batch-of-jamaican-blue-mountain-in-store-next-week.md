@@ -1,12 +1,12 @@
 ---
-templateKey: 'blog-post'
+templateKey: blog-post
 title: 'Serverless: ¿Es tan barato como dicen?'
 date: 2019-09-20T15:04:10.000Z
-featuredpost: true
-featuredimage: /img/home-jumbotron.png
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.
+featuredpost: true
+featuredimage: /img/home-jumbotron.png
 tags:
   - jamaica
   - green beans
