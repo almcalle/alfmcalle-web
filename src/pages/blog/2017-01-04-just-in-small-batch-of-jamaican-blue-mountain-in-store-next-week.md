@@ -14,108 +14,55 @@ tags:
   - tasting
 ---
 
->Summary: Unless you are operating at massive scale, Serverless is not just cheap, it's a steal. You should get started today.
-One of the most compelling reasons people often give for using Serverless, is cost.
+>En resumen: A no ser que estés operando a escala masiva, Serverless no solo es barato, sino que es casi gratis.
+Una de las principales razones para usar Serverless es el coste,  si eso te preocupa deberías empezar hoy mismo con esta tecnología.
 
+En una app Serverless solo se paga cuando la app se está ejecutando, lo cuál es genial. ¿Porqué pagar por una app todo el tiempo cuando puede pagar solo por el tiempo que se está ejecutando?
 
-In a Serverless app, you only pay when the app is running. Which sounds awesome! Why pay for an app that's up all the time if you can get away with only paying for it while it's busy?
+Seguramente en tu casa no dejes el agua corriendo. La cierras y abres cuando la necesitas. Pues hoy en día ya se puede hacer lo mismo con los servidores de una app.
 
-I mean, you don't just leave the water running at your house. You turn it on when you need it and off when you don't. Unless you're my kids. Then you wash your hands and just leave the water running because you have a 3 second attention span and LET'S GO PLAY MINECRAFT!
 
 Running faucet
+La tecnología Serverless suena bien. Pero, ¿Cómo es de barata realmente?
 
-Serverless sounds like a steal. Like get on this deal before someone realizes what's happening and changes the rules. But how cheap is Serverless really?
+A continuación vamos a desgranar su precio en detalle.
 
-I mean, come on; what's the catch.
+Cuando ves el precio de un servicio Serverless parece demasiado barato y piensas ¿Cómo pueden hacer dinero de esto siendo tan barato?. Por ejemplo el precio de las ejecuciones de Azure Functions te hace pagar por tres cosas:
 
-Breaking down the cost of Azure Functions
-When you look at the cost of Serverless, it definitely appears to be dirt cheap. Like, how-can-anyone-make-any-money-off-of-this cheap. For instance, Azure Functions consumption plan charges you (monthly) for three things:
+Ejecuciones
+Tiempo de Ejecución
+Almacenamiento
 
-Executions
-Execution Time
-Storage
-Executions are pretty easy to understand: how many times did your Function execute? You get charged 20 cents per million executions. Which, wow. That seems like it's basically free. On top of that, you get the first million executions free every month.
+Las ejecuciones son bastante fáciles de entender: Se trata de cuantas veces se ha ejecutado la función. Cuesta 20 centímos por millon de ejecuciones. Parece practicamente gratís, y además te regalan el primer millón de ejecuciones de forma gratuita.
 
-To put that in perspective, your Function could run 32,258 time per day and it would cost you ZILCH. That's 22 times per minute. If you executed your function every second of every day that's 2.628e+6 times - or 2,628,000 times. THAT'S NOT EVEN 40 CENTS.
+Para ponerlo en pespectiva, tu función podría ejecutarse una vez al día y te costaría nada. Eso son 22 veces por minuto. Si ejecutas tu función una vez cada segundo eso sería 2.628.000 ejecuciones, osea ni siquiera 40 centimos.
 
-But executions are not the only thing you get charged for. You also get charged for Execution Time.
+Pero de las ejecuciones además hay que pagar el Tiempo de de ejecución.
 
-Execution Time is a bit harder to quantify in your head. It's basically a charge for how much resources your Function uses while it's executing, and for how long it uses it. This is called GB-s. Or, "gigabyte Seconds".
+Es basicamente pagar por cuantos recursos usa tu función mientras se está ejecutando. Esto se llama GB-s o "Gigabyte Segundo"
 
-Here's how it works: Whenever your Function executes, Azure calculates how much memory it is using rounded up to the nearest 128MB. So if your Function only uses 25MB of memory, it counts as 128. It also calculates how long it ran, rounded up to the nearest 100 milliseconds.
+Aquí está como funciona: Cuando ejecutas una función, Azure calcula cuanta memoría usa redondeado hacia arriba al múltiplo de 128MB más cercano. Por eso si tu función usa solo 25MB de memoría, cuenta como 128MB. Además cacula cuanto tiempo se ha ejecutado y lo redondea al alza hasta los 100 milisegundos más cercanos.
 
-So if you have a dead simple "Hello World" Serverless Function, that's going to count for 128MB of memory every time it runs, or, .125 gigabtyes. To get to the execution cost, you take the total number of executions, and multiply it by how long it took the function to execute. For "Hello World", this is going to be 100ms, because that's the least amount it can ever be.
+Por lo tanto si tienes un simple "Hello World" en una función Serverless va a contar como 128MB cada vez que se ejecute. Para obtener el coste de ejecución tomamos el número total de ejecuciones y lo multiplicamos por cuanto tiempo le tomó a la función la ejecución. Para algo tan simple como el "Hello World" va a ser 100ms ya que es la menor cantidad posible.
 
-Now assume that you run that function every second of every day. We've already said that's 2,628,000 times. You take that number and you multiple it by the number of milliseconds that it took the Function to run (100ms).
-2,628,000 * .100
-That gives us 262,280. We now have to take this number and multiply it by how much memory the Function used each time it ran, which we already said was .125.
-262,800 * .125
-This equals 32,850. OK, so the total Execution Time is 32,850 GB-s. How much does that cost us?
+Ahora asumiendo que tenemos una función que se ejecuta una vez cada segundo (arriba dijimos que eran 2.628.000 veces) y lo multiplicamos por los segundos que tarda la función en ejecutarse (100ms)
 
-Nothing. Because you get the first 400K GB-s for free.
+2.628.000 * 0,1 = 262.280
 
-Alright. OK. So all those executions cost us 40 cents, and the execution time costs us nothing. This seems like a complete win-win. Who put this business model together?
+Ahora tenemos que tomar este número y multiplicarlo por la memoria que la función usa cada vez que se ejecuta, que ya hemos dicho que es 128MB o 0.125GB
 
-Storage is how much storage your code uses up. Behind the scenes, Azure uses an Azure Storage account to put your code, any trigger logic and any queues you might be writing to.
+262.800 * 0,125 = 32.850
 
-If you are storing just your code, that's basically nothing. Azure Storage costs don't even begin to kick in until you've hit the first gigabyte. If you being to store lots and lots of data in queues, it could start to go up, but even then, you'd need to be using lots of it. Just keep in mind that storage is not free, but it almost is.
+Entonces el tiempo de ejecución mensual total es 32.850 GB-s. ¿Cuanto nos costaría?
 
-At this scale, Serverless is almost paying us to use it. But what happens when we scale up? Like way up?
+Nada, ya que Azure te da los primeros 400.000 GB-s de forma gratuita.
 
-Facebook scale
-Let's assume for a minute that we're dealing with traffic that's Facebook-sized. That's a hard number to pin down, but Facebook reports that every second, 510K comments are posted, 293K status updates are made and 136K photos are uploaded. That's not even close to being all the traffic, but if we take just those 3 things, that's 939K executions per second.
+En resumen, todas esas ejecuciones nos cuestan unos 40 centimos.
 
-How many executions a month is that?
-939,000 * 60 (seconds in a minute) * 60 (minutes in an hour) * 24 (hours in a day) * 30 (days in a month)
-Which gives us 2.43389e12. I don't even now how to say that number. At 20 cents per million executions (with the first million free)...
-(2.43389e12 - 1,000,000 free executions ) / 1,000,000 ) * .20 cents per execution
-Ready for it? $486,777.40. Don't forget the forty cents.
+El almacenamiento es cuanto almacenamiento usa tu código. Si solo almacenas tú código, este coste es totalmente gratuito, ya que no hay coste hasta el primer GB. Si tu aplicación sigue creciendo y usa más y más almacenamiendo solo recuerda que este no es gratis, sino casi gratis.
 
-That's just execution cost. Now let's add in Execution Time.
+#El coste real de una aplicación Serverless
 
-To do that, we need to know how long do these operations take. Posting a comment might take less than a second, but uploading a photo might take several seconds. Let's just use 1 second as a nice, round, arbitrary number for all 939K executions. To figure out how many executions this is per month..
-2.43389e12 * 1
-You can probably do that in your head. I almost could.
+Hemos visto y calculado que cuesta muy poco el hosting y la ejecución de este tipo de aplicaciones. Y hasta que alcanzan un tamaño considerable pagarás muy poco o nada, además esta tecnología es completamente escalable, siendo la tecnología perfecta para startups que están empezando o negocios establecidos que debido al bajo coste de estas soluciones podrían ahorrar bastante en sus gastos mensuales.
 
-Now how much memory do these operations consume? It depends on how much code is being loaded up into memory on the server. This is hard to know, but let's just leave it at 128MB. That seems like a large number. I feel like you could load a hefty Function at that size.
-
-So our final equation is...
-2.43389e12 * .125
-This gives us 3.04236e11 GB-s. We get the first 400K GB-s for free. After that it's 0.000016/GB-s.
-(3.04236e11 - 400,000 free GB-s) * 0.000016 per GB-s
-That gives us $4,867,769.60 in Execution Time cost. So the total bill is...
-486,777.40 execution cost + 4,867,769.60 execution time
-For a whopping total of $5,354,547. Per month. Every month. And we didn't even get close to what Facebook is actually doing.
-
-So just over 5 million per month? Is that all?
-
-No. That's not all.
-
-All about the bandwidth
-Bandwidth charges apply to everything that you do in the cloud. That includes Serverless functions. If you have your own data center, you are paying for bandwidth. If you are running it in the cloud, you are paying for bandwidth. Either way, bandwidth.
-
-So how much is bandwidth? Azure charges for bandwidth on a sliding scale. The more you use, the cheaper it gets. You get the first 5 GB free. Then it costs 8.7 cents per GB of bandwidth for 5GB - 10TB. Then it goes down to 8.3 cents for the next 40 TB and on and on until you get over 150 TB and it drops to 5 cents per GB.
-
-How much bandwith do you think Facebook uses? Eek. I don't think I can even do this calculation. I wouldn't even know where to start. But I can bet you it's going to be way more than that 5.3 million monthly execution cost.
-
-This is why Facebook has their own data centers. At some point, you get so big that it makes sense that you just become your own cloud.
-
-But you are probably not your own cloud, so back to reality. We still haven't answered the question of how expensive Serverless is or isn't for a "typical" application. Let's do that.
-
-A typical Serverless cost
-My friend and I wrote an application a while back that is used by a few folks, but overall is not a heavily used application. It's fielding around 20K request per month.
-
-Without even looking we know that the cost of our executions is free. We're nowhere close the million mark.
-
-Here's our cost dashboard for the last 30 days.
-
-Serverless Cost Dashboard
-
-We are in fact paying zilch to host and execute this application. Nothing. It is completely free.
-
-The bandwidth charges we are incurring. This is because our Serverless application is an API, so it's sending data out of Azure. If this was a microservice that was just moving data around within the same region in Azure, our bandwidth cost would be zero too. That's where Serverless is really an amazing deal.
-
-The real deal
-So is the cost of Serverless over-hyped?
-
-No. It's for real. Until you reach a sizeable scale, you'll pay very little if anything at all. Serverless is one of the most remarkable technologies to come your way in quite some time. Couple that with the automatic infinite scaling and the fact that you don't even have to deal with a runtime anymore, and this one is a no-brainer.
+En definitiva, Serverless es una de las tecnologías más reseñables de los últimos tiempos y eso combinado a su escalabilidad infinita de manera autómatica y el hecho de no tener que que lidiar con servidores nunca más lo convierten en la apuesta ganadora de cualquier nuevo desarrollo tecnológico
