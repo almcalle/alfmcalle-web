@@ -7,10 +7,7 @@ description: >-
 featuredpost: true
 featuredimage: /img/cloud-computing-blog.png
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - serverless
 ---
 
 >En resumen: A no ser que estés operando a escala masiva, Serverless no solo es barata, sino que es casi gratis.
