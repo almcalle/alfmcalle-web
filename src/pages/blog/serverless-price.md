@@ -3,8 +3,7 @@ templateKey: blog-post
 title: 'Serverless: ¿Es tan barato como dicen?'
 date: 2019-09-20T15:04:10.000Z
 description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
+  A no ser que estés operando a escala masiva, la tecnológia Serverless no solo es barata, sino que es casi gratis. En este articulo exponemos y calculamos costaría una solución así.
 featuredpost: true
 featuredimage: /img/cloud-computing-blog.png
 tags:
@@ -14,8 +13,8 @@ tags:
   - tasting
 ---
 
->En resumen: A no ser que estés operando a escala masiva, Serverless no solo es barato, sino que es casi gratis.
-Una de las principales razones para usar Serverless es el coste,  si eso te preocupa deberías empezar hoy mismo con esta tecnología.
+>En resumen: A no ser que estés operando a escala masiva, Serverless no solo es barata, sino que es casi gratis.
+Una de las principales razones para usar Serverless es el coste, si eso te preocupa deberías empezar hoy mismo con esta tecnología.
 
 En una app Serverless solo se paga cuando la app se está ejecutando, lo cuál es genial. ¿Porqué pagar por una app todo el tiempo cuando puede pagar solo por el tiempo que se está ejecutando?
 
