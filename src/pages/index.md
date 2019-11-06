@@ -10,7 +10,7 @@ mainpitch:
   image: /img/low-cost.png
   description: 
     - text: Me llamo Alfonso Martínez Calle y soy Ingeniero de Telecomunicaciones graduado en la universidad de Málaga.
-    - text: Estuve trabajando durante 2 años cómo desarrollador Full Stack web en el parque tecnológico de Málaga y desde hace 2 años trabajo como desarrollador Freelance de aplicaciones móviles.
+    - text: Estuve trabajando durante 2 años cómo desarrollador Full Stack en el parque tecnológico de Málaga y desde hace 2 años trabajo como desarrollador Freelance de aplicaciones móviles.
 
 intro:
   blurbs:
@@ -39,7 +39,7 @@ intro:
   description: >
     Uso la última tecnología para conseguir desarrollos punteros, escalables
     y en poco tiempo.
-  title: La tecnología que uso
+  title: ¿Por qué elegirme?
 apps:
   blurbs:
     - text: >+
