@@ -1,8 +1,8 @@
 ---
 templateKey: services-page
 title: Nuestros servicios
-contactUs: Contáctanos
-description: Estos son los servicios que ofrecemos
+contactUs: Contáctame
+description: Estos son los servicios que ofrezco
 web:
   description: We build modern web applications of all shapes and sizes using the latest technologies.
   title: Web Development

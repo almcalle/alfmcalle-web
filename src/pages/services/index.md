@@ -1,14 +1,14 @@
 ---
 templateKey: services-page
-title: Nuestros servicios
-description: Estos son los servicios que ofrecemos
-contactUs: Contáctanos
+title: Mis servicios
+description: Estos son los servicios que ofrezco
+contactUs: Contáctame
 web:
   blurbs:
     - image: /img/fast-icon.png
       text: >
-        La velocidad de las páginas web es crucial y afecta a la conversión y
-        tambien al raking en los buscadores. Nos aseguramos de un tiempo de
+        Actualmente la velocidad en las páginas web es crucial y afecta a la conversión y
+        tambien al raking en los buscadores. Soy capaz de crear páginas con tiempo de
         carga rápido incluso aunque haya una carga de datos pesada gracias al
         uso de buenas practicas en el diseño.
       title: Rendimiento

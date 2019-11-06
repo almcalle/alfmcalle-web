@@ -1,10 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql } from "gatsby";
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+import Layout from "../components/Layout";
+import Features from "../components/Features";
+import BlogRoll from "../components/BlogRoll";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const IndexPageTemplate = ({
   image,
@@ -26,27 +27,27 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        backgroundAttachment: `fixed`
       }}
     >
       <div
         style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-          alignSelf: 'center'
+          display: "flex",
+          height: "150px",
+          lineHeight: "1",
+          justifyContent: "space-around",
+          alignItems: "left",
+          flexDirection: "column",
+          alignSelf: "center"
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-            alignSelf: 'center'
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em",
+            alignSelf: "center"
           }}
         >
           {title}
@@ -54,10 +55,10 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-            alignItems: 'center'
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em",
+            alignItems: "center"
           }}
         >
           {subheading}
@@ -65,9 +66,9 @@ export const IndexPageTemplate = ({
         <div
           className="column is-12 has-text-centered"
           style={{
-            marginTop: '30px'
+            marginTop: "30px"
           }}
-          >
+        >
           <Link className="btn" to="/contact">
             {contactUs}
           </Link>
@@ -81,11 +82,31 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  <div className="columns is-multiline">
+                    <div className="column is-2">
+                      <img
+                        className="profilePic"
+                        src="/img/Alfonso_Martinez_Calle.jpg"
+                        alt="Alfonso Martínez Calle"
+                      />
+                    </div>
+                    <div className="column is-7 is-offset-1">
+                      <div className="tile">
+                        <h1 className="title">{mainpitch.title}</h1>
+                      </div>
+                      <div className="tile">
+                        <h3 className="subtitle">{mainpitch.description}</h3>
+                      </div>
+                      <div className="content">
+                        <a
+                          className="btn"
+                          href="https://www.linkedin.com/in/almcalle/"
+                          target="_blank"
+                        >
+                          Conecta conmigo en Linkedin
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="columns">
@@ -100,44 +121,48 @@ export const IndexPageTemplate = ({
                 {
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
-                      {(intro.seeMore) && (
+                      {intro.seeMore && (
                         <Link className="btn" to={intro.seeMoreUrl}>
                           {intro.seeMore}
-                        </Link>)}
-                      </div>
+                        </Link>
+                      )}
                     </div>
+                  </div>
                 }
-              {
-                //   <div className="column is-12">
-                //   <h3 className="has-text-weight-semibold is-size-2">
-                //     Latest stories
-                //   </h3>
-                //   <BlogRoll />
-                //   <div className="column is-12 has-text-centered">
-                //     <Link className="btn" to="/blog">
-                //       Read more
-                //     </Link>
-                //   </div>
-                // </div>
-              }
-              <div className="columns">
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    {apps.title}
-                  </h3>
-                  <p>{apps.description}</p>
+                {
+                  //   <div className="column is-12">
+                  //   <h3 className="has-text-weight-semibold is-size-2">
+                  //     Latest stories
+                  //   </h3>
+                  //   <BlogRoll />
+                  //   <div className="column is-12 has-text-centered">
+                  //     <Link className="btn" to="/blog">
+                  //       Read more
+                  //     </Link>
+                  //   </div>
+                  // </div>
+                }
+                <div className="columns">
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {apps.title}
+                    </h3>
+                    <p>{apps.description}</p>
+                  </div>
                 </div>
-              </div>
-              <Features gridItems={apps.blurbs} />
+                <Features gridItems={apps.blurbs} />
               </div>
             </div>
           </div>
         </div>
         <div className="content">
           <div className="tile">
-            <h3 className="subtitle" style={{
-                textAlign: 'center'
-              }}>
+            <h3
+              className="subtitle"
+              style={{
+                textAlign: "center"
+              }}
+            >
               {footer}
             </h3>
           </div>
@@ -145,9 +170,9 @@ export const IndexPageTemplate = ({
         <div
           className="column is-12 has-text-centered"
           style={{
-            marginTop: '30px'
+            marginTop: "30px"
           }}
-          >
+        >
           <Link className="btn" to="/contact">
             {contactUs}
           </Link>
@@ -155,7 +180,7 @@ export const IndexPageTemplate = ({
       </div>
     </section>
   </div>
-)
+);
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -165,15 +190,15 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+    blurbs: PropTypes.array
   }),
   apps: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
+    blurbs: PropTypes.array
+  })
+};
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
@@ -190,18 +215,18 @@ const IndexPage = ({ data }) => {
         contactUs={frontmatter.contactUs}
       />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
+      frontmatter: PropTypes.object
+    })
+  })
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -258,7 +283,6 @@ export const pageQuery = graphql`
           }
         }
       }
-
     }
   }
-`
+`;
