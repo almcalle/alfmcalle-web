@@ -83,21 +83,26 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="columns is-multiline">
-                    <div className="column is-2">
+                    <div className="column is-5">
                       <img
                         className="profilePic"
                         src="/img/Alfonso_Martinez_Calle.jpg"
                         alt="Alfonso Martínez Calle"
                       />
                     </div>
-                    <div className="column is-7 is-offset-1">
+                    <div className="column is-6 is-offset-1">
                       <div className="tile">
                         <h1 className="title">{mainpitch.title}</h1>
                       </div>
                       <div className="tile">
-                        <h3 className="subtitle">{mainpitch.description}</h3>
+                        <h3 className="subtitle">
+                          {mainpitch.description &&
+                            mainpitch.description.map(({ text }) => (
+                              <p>{text}</p>
+                            ))}
+                        </h3>
                       </div>
-                      <div className="content">
+                      <div className="has-text-centered">
                         <a
                           className="btn"
                           href="https://www.linkedin.com/in/almcalle/"
@@ -246,7 +251,9 @@ export const pageQuery = graphql`
         footer
         mainpitch {
           title
-          description
+          description {
+            text
+          }
         }
         description
         intro {

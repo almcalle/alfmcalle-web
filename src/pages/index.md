@@ -8,11 +8,11 @@ contactUs: Contáctame
 mainpitch:
   title: Sobre mí
   image: /img/low-cost.png
-  description: >
-    Me llamo Alfonso Martínez Calle y soy Ingeniero de Telecomunicaciones.
-    
-    Uso la última tecnología, creando de forma rápida todo lo necesario para
-    tu negocio.
+  description: 
+    - text: Me llamo Alfonso Martínez Calle y soy Ingeniero de Telecomunicaciones.
+    - text: Estos son los servicios que ofrezco.
+   
+
 intro:
   blurbs:
     - text: >
