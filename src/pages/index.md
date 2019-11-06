@@ -9,9 +9,11 @@ mainpitch:
   title: Sobre mí
   image: /img/low-cost.png
   description: 
-    - text: Me llamo Alfonso Martínez Calle y soy Ingeniero de Telecomunicaciones.
-    - text: Estos son los servicios que ofrezco.
-   
+    - text: Me llamo Alfonso Martínez Calle y soy Ingeniero de Telecomunicaciones graduado en la universidad de Málaga.
+    - text: Estuve trabajando durante 2 años cómo desarrollador Full Stack web en el parque tecnológico de Málaga y desde hace 2 años trabajo como desarrollador Freelance de aplicaciones móviles.
+    - text: En mis últimas apps utilizo React Native (La tecnología que actualmente usan los gigantes de la industria) y creo que sería la mejor tecnología para hacer más rápido y barato el desarrollo y mantenimiento de su app tanto para Android o iOS y conservando todos las cualidades de una app nativa, ya que todo el código es traducido y se tienen un rendimiento igual a un desarrollo 100% nativo.
+    - text: Otro punto a favor de esta arquitectura es que la lógica de la aplicación se puede reutilizar para posteriormente desarrollar una web con el mismo contenido y así abaratar desarrollos posteriores.
+    - text: Para el desarrollo del backend de las aplicaciones uso una arquitectura Serverless con Amazon Web Services para así abaratar el precio del backend (gratuito si el uso no es enorme)  y pagar según el tráfico de una forma completamente escalable y sin preocuparse de mantenimiento de servidores.
 
 intro:
   blurbs:
