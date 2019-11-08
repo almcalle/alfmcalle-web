@@ -19,7 +19,7 @@ web:
       title: Responsive
   title: Desarrollo Web
   description: >-
-    Construimos aplicaciones web modernas de todo tipo y tamaño usando las
+    Construyo aplicaciones web modernas de todo tipo y tamaño usando las
     últimas tecnologias.
 
     Arquitecturas autoescalables y sin mantenimiento
@@ -28,10 +28,10 @@ apps:
     - image: /img/react-native.png
       text: >-
         Si tarda más de 100ms el usuario lo notará. Es por esto por lo que
-        usamos React Native en vez de otros sistemas basados en WebView (Como
+        uso React Native en vez de otros sistemas basados en WebView (Como
         por ejemplo Ionic). Esto nos permite conseguir 60 frames por segundo y
         un "look and feel" igual a una aplicación nativa.
-      title: Rendimiento Nativo
+      title: React Native
     - image: /img/fast-development.jpg
       text: >-
         Permite un estilo completamente diferente de desarrollo sacando
@@ -40,7 +40,7 @@ apps:
       title: Rápido ciclo de desarrollo
     - image: /img/puzzle.jpg
       text: >-
-          Usamos componentes a medida altamente reutilizables para facilitar
+          Uso componentes a medida altamente reutilizables para facilitar
           desarrollos futuros y disminuir la deuda técnica.
       title: Componentes reutilizables
     - image: /img/growth-icon.png

@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Startling Apps',
     description:
-      'Desarrollamos aplicaciones móviles y páginas web usando la última tecnología',
+      'Desarrollo aplicaciones móviles y páginas web usando la última tecnología: React Native, Amazon Web Services',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
