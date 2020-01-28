@@ -9,7 +9,7 @@ mainpitch:
   title: Sobre mí
   image: /img/low-cost.png
   description: 
-    - text: Me llamo Alfonso Martínez Calle y soy Ingeniero de Telecomunicaciones graduado en la universidad de Málaga.
+    - text: Me llamo Alfonso Martínez Calle y soy desarrollador Full Stack con experiencia en el uso de React.js, React Native, desarrollo iOS e Android nativo, Amazon Web Services, Node.js, bases de datos...
     - text: Estuve trabajando durante 2 años cómo desarrollador Full Stack en el parque tecnológico de Málaga y desde hace 2 años trabajo como desarrollador Freelance de aplicaciones móviles.
 
 intro:
@@ -60,17 +60,17 @@ apps:
       image: /img/pictime-logo.png
       url: 'https://pictime.es'
     - text: >-
-        Una  APP  de servicios para el hogar y empresas creada para Córdoba
+        Una aplicación de servicios para el hogar y empresas creada para Córdoba
         (Argentina)
       title: Semismanos
       image: /img/semismanos.png
       url: 'http://semismanos.com/'
     - text: >-
-        Una serie de aplicaciones educativas para aprender Historia y ayudar al
-        estudio de forma más didáctica y de forma interactiva
-      title: Kalixto
-      image: /img/icon.png
-      url: 'https://apps.apple.com/es/developer/juan-manuel-corchado/id1386745961'
+        Una aplicación para aprender polaco y ayudar al
+        estudio del idioma de forma más didáctica e interactiva
+      title: Learn Polish
+      image: /img/LearnPolish.png
+      url: 'https://play.google.com/store/apps/details?id=com.blog.ALMCalle.LearnPolish'
   description: >-
     Aquí se pueden ver algunas de las aplicaciones creadas por mí mismo.
 
