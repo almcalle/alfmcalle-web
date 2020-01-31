@@ -60,17 +60,17 @@ apps:
       image: /img/pictime-logo.png
       url: 'https://pictime.es'
     - text: >-
-        Una aplicación de servicios para el hogar y empresas creada para Córdoba
-        (Argentina)
-      title: Semismanos
-      image: /img/semismanos.png
-      url: 'http://semismanos.com/'
-    - text: >-
         Una aplicación para aprender polaco y ayudar al
         estudio del idioma de forma más didáctica e interactiva
       title: Learn Polish
       image: /img/LearnPolish.png
       url: 'https://play.google.com/store/apps/details?id=com.blog.ALMCalle.LearnPolish'
+    - text: >-
+        Una aplicación de servicios para el hogar y empresas creada para Córdoba
+        (Argentina)
+      title: Semismanos
+      image: /img/semismanos.png
+      url: 'http://semismanos.com/'
   description: >-
     Aquí se pueden ver algunas de las aplicaciones creadas por mí mismo.
 
