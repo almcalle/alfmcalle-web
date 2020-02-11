@@ -22,9 +22,9 @@ export default class Index extends React.Component {
     console.log("STATE: ", this.state);
 
     e.preventDefault()
+    const form = e.target
 
     // DEFAULT NETLIFY RESPONSE HANDLER
-    // const form = e.target
     // fetch('/', {
     //   method: 'POST',
     //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
