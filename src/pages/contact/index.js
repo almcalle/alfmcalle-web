@@ -22,7 +22,9 @@ export default class Index extends React.Component {
     console.log("STATE: ", this.state);
 
     e.preventDefault()
-    const form = e.target
+
+    // DEFAULT NETLIFY RESPONSE HANDLER
+    // const form = e.target
     // fetch('/', {
     //   method: 'POST',
     //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -30,9 +32,8 @@ export default class Index extends React.Component {
     //     'form-name': form.getAttribute('name'),
     //     ...this.state,
     //   }),
-    // })
-    const message = encodeURIComponent(this.state.message)
-    console.log("MESSAGE: ", message);
+    // }).then(() => navigate(form.getAttribute('action')))
+    // .catch(error => alert(error))
 
     fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSfVlC1UPWA0xVwqbGBIEqlInVbdRk_lfLiZnWpz1VOFynKtPw/formResponse?usp=pp_url&emailAddress='
       + this.state.email +
@@ -41,11 +42,10 @@ export default class Index extends React.Component {
       '&entry.433248750='
       + encodeURIComponent(this.state.message) +
       '&submit=Submit', {
-      // method: 'POST',
-      // headers: { "Access-Control-Allow-Origin": "*" }
+        mode: 'no-cors',
     })
       .then(() => navigate(form.getAttribute('action')))
-      .catch(() => navigate(form.getAttribute('action')))
+      .catch(error => alert(error))
   }
 
   render() {
