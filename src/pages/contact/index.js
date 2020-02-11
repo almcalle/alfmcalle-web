@@ -19,18 +19,33 @@ export default class Index extends React.Component {
   }
 
   handleSubmit = e => {
+    console.log("STATE: ", this.state);
+
     e.preventDefault()
     const form = e.target
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
+    // fetch('/', {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    //   body: encode({
+    //     'form-name': form.getAttribute('name'),
+    //     ...this.state,
+    //   }),
+    // })
+    const message = encodeURIComponent(this.state.message)
+    console.log("MESSAGE: ", message);
+
+    fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSfVlC1UPWA0xVwqbGBIEqlInVbdRk_lfLiZnWpz1VOFynKtPw/formResponse?usp=pp_url&emailAddress='
+      + this.state.email +
+      '&entry.1623476616='
+      + encodeURIComponent(this.state.name) +
+      '&entry.433248750='
+      + encodeURIComponent(this.state.message) +
+      '&submit=Submit', {
+      // method: 'POST',
+      // headers: { "Access-Control-Allow-Origin": "*" }
     })
       .then(() => navigate(form.getAttribute('action')))
-      .catch(error => alert(error))
+      .catch(() => navigate(form.getAttribute('action')))
   }
 
   render() {
