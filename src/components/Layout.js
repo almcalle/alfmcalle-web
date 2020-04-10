@@ -40,7 +40,7 @@ const TemplateWrapper = ({ children }) => {
           color="#ffffff"
         />
         <meta name="theme-color" content="#fff" />
-        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileColor" content="#da532c" />
         <link rel="manifest" href={`${withPrefix("/")}img/site.webmanifest`} />
 
         <meta property="og:type" content="business.business" />
