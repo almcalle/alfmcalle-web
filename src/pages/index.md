@@ -9,7 +9,7 @@ mainpitch:
   title: Sobre mí
   image: /img/low-cost.png
   description: 
-    - text: Me llamo Alfonso Martínez Calle y soy desarrollador Full Stack con experiencia en el uso de React.js, React Native, SwiftUI, Amazon Web Services, Node.js, bases de datos...
+    - text: Me llamo Alfonso Calle y soy desarrollador Full Stack con experiencia en el uso de React.js, React Native, SwiftUI, Amazon Web Services, Node.js, bases de datos...
     - text: Estuve trabajando durante 2 años cómo desarrollador Full Stack en el parque tecnológico de Málaga y desde hace 3 años trabajo como desarrollador Freelance de aplicaciones móviles.
 
 intro:
