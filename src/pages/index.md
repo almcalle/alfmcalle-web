@@ -43,16 +43,11 @@ intro:
 apps:
   blurbs:
     - text: >+
-        Es la primera red social de calistenia del mundo.
-
-        En ella los usuarios pueden crear sus propias rutinas de entrenamiento,
-        compartirlas con la comunidad, ver videos de la realización de cada
-        ejercicio, subir un video de perfil para mostrar sus habilidades y mucho
-        más!
-
-      title: Pro-gress
-      image: /img/pro-gress-logo.png
-      url: 'https://pro-gress.app'
+        Es una solución creada para mejorar el acompañamiento médico y emocional de los pacientes.
+        La app permite escuchar podcast, realizar videollamadas, ver videos y llevar un registro de eventos en un calendario.
+      title: Amaclinics
+      image: /img/amaclinics-app-icon.png
+      url: 'https://amaclinics.com/'
     - text: >-
         ¡Abajo el postureo! Este es el lema de esta red social, esta basada en
         subir fotos/videos reales cuando te llega una notificación Push
