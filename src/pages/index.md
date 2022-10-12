@@ -10,7 +10,7 @@ mainpitch:
   image: /img/low-cost.png
   description: 
     - text: Me llamo Alfonso Calle y soy desarrollador Full Stack con experiencia en el uso de React.js, React Native, SwiftUI, Amazon Web Services, Node.js, bases de datos...
-    - text: Estuve trabajando durante 2 años cómo desarrollador Full Stack en el parque tecnológico de Málaga y desde hace 3 años trabajo como desarrollador Freelance de aplicaciones móviles.
+    - text: Estuve trabajando durante 2 años cómo desarrollador Full Stack en el parque tecnológico de Málaga y desde hace 5 años trabajo como desarrollador Freelance de aplicaciones móviles.
 
 intro:
   blurbs:
@@ -61,11 +61,10 @@ apps:
       image: /img/LearnPolish.png
       url: 'https://play.google.com/store/apps/details?id=com.blog.ALMCalle.LearnPolish'
     - text: >-
-        Una aplicación de servicios para el hogar y empresas creada para Córdoba
-        (Argentina)
-      title: Semismanos
-      image: /img/semismanos.png
-      url: 'http://semismanos.com/'
+        Una aplicación capaz de crear imágenes a partir de texto usando inteligencia artificial
+      title: Electric Dreams
+      image: /img/electricdreams.webp
+      url: 'https://play.google.com/store/apps/details?id=app.electricdreams'
   description: >-
     Aquí se pueden ver algunas de las aplicaciones creadas por mí mismo.
 
