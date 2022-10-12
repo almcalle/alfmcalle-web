@@ -42,6 +42,11 @@ intro:
   title: ¿Por qué elegirme?
 apps:
   blurbs:
+    - text: >-
+        Una aplicación capaz de crear imágenes a partir de texto usando inteligencia artificial
+      title: Electric Dreams
+      image: /img/electricdreams.webp
+      url: 'https://play.google.com/store/apps/details?id=app.electricdreams'
     - text: >+
         Es una solución creada para mejorar el acompañamiento médico y emocional de los pacientes.
         La app permite escuchar podcast, realizar videollamadas, ver videos y llevar un registro de eventos en un calendario.
@@ -60,11 +65,6 @@ apps:
       title: Learn Polish
       image: /img/LearnPolish.png
       url: 'https://play.google.com/store/apps/details?id=com.blog.ALMCalle.LearnPolish'
-    - text: >-
-        Una aplicación capaz de crear imágenes a partir de texto usando inteligencia artificial
-      title: Electric Dreams
-      image: /img/electricdreams.webp
-      url: 'https://play.google.com/store/apps/details?id=app.electricdreams'
   description: >-
     Aquí se pueden ver algunas de las aplicaciones creadas por mí mismo.
 
