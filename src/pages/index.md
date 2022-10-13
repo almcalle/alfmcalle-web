@@ -65,6 +65,21 @@ apps:
       title: Learn Polish
       image: /img/LearnPolish.png
       url: 'https://play.google.com/store/apps/details?id=com.blog.ALMCalle.LearnPolish'
+    - text: >+
+        Es la primera red social de calistenia del mundo.
+        En ella los usuarios pueden crear sus propias rutinas de entrenamiento,
+        compartirlas con la comunidad, ver videos de la realización de cada
+        ejercicio, subir un video de perfil para mostrar sus habilidades y mucho
+        más!
+      title: Pro-gress
+      image: /img/pro-gress-logo.png
+      url: 'https://www.youtube.com/watch?v=7pE34SBwlKk'
+    - text: >+
+        Una aplicación de servicios para el hogar y empresas creada para Córdoba
+        (Argentina)
+      title: Semismanos
+      image: /img/semismanos.png
+      url: 'http://semismanos.com/' 
   description: >-
     Aquí se pueden ver algunas de las aplicaciones creadas por mí mismo.
 
